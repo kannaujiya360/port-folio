@@ -29,7 +29,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.5 }}
-            className='text-gray-200 md:text-7xl text-5xl tracking-tight mb-4'
+            className='text-gray-200 md:text-5xl text-2xl tracking-tight mb-4'
           >
             HEY, I AM <br />
             <span className='text-purple-500'>Sunil Kannaujiya</span>
@@ -92,7 +92,7 @@ const Hero = () => {
         transition={{ duration: 1, delay: 2 }}
         className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
       >
-        <p className="text-gray-200 mr-6">My Tech Stack</p>
+        <p className="text-gray-200 mr-2">My Tech Stack</p>
 
         {/* Tech Icons with Hover Effects */}
         <motion.div
