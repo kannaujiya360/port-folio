@@ -57,7 +57,7 @@ const Hero = () => {
               className='z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl'
             >
-              Download resume
+              <a href="https://drive.google.com/file/d/1f25FhzkDr91p6pyxcOGBfnSjH6Tg59QQ/view?usp=drive_link">Download resume</a>
             </motion.button>
 
             <div className='flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20'>
@@ -92,7 +92,7 @@ const Hero = () => {
         transition={{ duration: 1, delay: 2 }}
         className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
       >
-        <p className="text-gray-200 mr-2">My Tech Stack</p>
+        
 
         {/* Tech Icons with Hover Effects */}
         <motion.div
