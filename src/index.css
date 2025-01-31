@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@534&display=swap');
+
+
+
+
+@import "tailwindcss";
+
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #190b1f;
+}
+
+
+.shiny-effect {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(circle, rgba(178, 19, 202, 0.2), transparent 70%);
+}
+
+.bg-primary-color {
+    @apply bg-purple-600
+}
