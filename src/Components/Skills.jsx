@@ -60,13 +60,13 @@ const Skills = () => {
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8
                         ">
             {skills.map((skill, index) => (
-                <div key={index} className="border border-purple-900 p-6 rounded-lg bg-purple-900/20 shadow-lg 
-                                w-full md:w-1/2">
+                <div key={index} className="border border-purple-900 p-6 rounded-lg bg-purple-900/20 shadow-lg  lg:w-2/3
+                                w-full md:w-1/2 ">
                     <h3 className="text-xl font-bold mb-4 text-center">{skill.category}</h3>
                     <div className="grid grid-cols-2 gap-4">
                         {skill.technologies.map((tech, idx) => (
                             <div key={idx} className="flex items-center space-x-2">
-                                <span className="text-2xl">{tech.icon}</span>
+                                <span className="text-xl">{tech.icon}</span>
                                 <span>{tech.name}</span>
                             </div>
                         ))}
