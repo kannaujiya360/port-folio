@@ -10,7 +10,7 @@ const projects = [
   {
     img: project1,
     title: "Project #1",
-    description: "UI for frontend development using React.",
+    description: "Doctor Appointment using react, node.js,express.js, MongoDb, ongoing",
     links: {
       site: "#",
       github: "https://github.com/kannaujiya360",
